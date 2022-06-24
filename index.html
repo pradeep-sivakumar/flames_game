@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://lh3.googleusercontent.com/ogw/ADea4I6OUE3_-viJan9A6UUKWbMn8SHPk7McZufVYIky=s32-c-mo"
+                        style="border-radius : 50%;" alt="logo" height="30">
+                    Pradeep Utilities</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar"
+                    aria-controls="#myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" tabindex="-1"
+                                aria-disabled="true">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+
+                    </ul>
+                </div>
+        </nav>
+    </header>
+
+    <div class="container-md-6 col-md-6 mt-5 m-auto">
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="text-center card-title">FLAMES CALCULATOR</h2>
+
+                <div class="form-group mt-5">
+                    <form id="myForm" onsubmit="SubForm();return fun(this)">
+                        <label for="mname">Enter Your Name <span class="text-danger"> *</span></label>
+                        <input type="text" class="form-control col-sm-4 mt-3 mb-3 p-2" id="mname" name="mname"
+                            required />
+
+                        <label for="cname">Enter Your Crush Name <span class="text-danger"> *</span></label>
+                        <input type="text" class="form-control col-sm-4 mt-3 mb-3 p-2" id="cname" name="cname"
+                            required />
+
+                        <button type="submit" class="btn btn-danger form-control mt-3 p-2 ">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div> 
+
+        <div class="mt-5"> </div>
+    <div class="container-fluid text-center text-white bg-dark">
+        <!-- Grid container -->
+        <div class="container-fluid pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" target="_blank" href="https://www.facebook.com/pradeepshinchan.7"
+                    role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+                    
+                    <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" target="_blank" href="https://www.instagram.com/pradeep.sivakumar_7/"
+                    role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" target="_blank" href="https://twitter.com/066_pradeep?t=jssX5JGoEy_Wvj_gORUC1g&s=09"
+                    role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+
+                
+
+                 <!-- linkedin --> 
+                 <a class="btn btn-link btn-floating btn-lg text-white m-1" target="_blank" href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHipVtN_VrnwAAAAYGWjzLABAhBGIOx_hNjzjP8nFNXufYUx34-cykkJLiE-ickUR7k19HNkHtv98arg7m8iwuQJEXc2kmsONPkJwAxBmnpu9Au6umdh2UIiVBqApauESs2rQE=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fpradeep-s-a16248228" role="button"
+                 data-mdb-ripple-color="dark"><i class="fa-brands fa-linkedin-in"></i></i></a>
+            </section>
+            <!-- Section: Social media -->
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="container-fluid text-center text-white p-2 bg-dark">
+                © 2022 Pradeep. All rights reserved.
+
+            </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+
+
+    
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
